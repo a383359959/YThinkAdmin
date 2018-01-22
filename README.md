@@ -9,3 +9,11 @@ http://blog.csdn.net/a383359959
 ## 使用方法
 
 ### 1、后台菜单
+
+`ythink_admin_menu` 表
+
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
