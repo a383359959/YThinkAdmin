@@ -14,6 +14,11 @@ http://blog.csdn.net/a383359959
 
 <table>
     <tr>
-        <td>Foo</td>
+        <td>字段名称</td>
+        <td>描述</td>
+    </tr>
+    <tr>
+        <td>id</td>
+        <td>自增ID</td>
     </tr>
 </table>
