@@ -16,10 +16,10 @@ http://www.xx.com/Mysql
 
 `ythink_admin_menu` 表
 
-<table>
+<table width="100%">
     <tr>
-        <td>字段名称</td>
-        <td>描述</td>
+        <td width="50%">字段名称</td>
+        <td width="50%">描述</td>
     </tr>
     <tr>
         <td>id</td>
