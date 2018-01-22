@@ -67,7 +67,9 @@ http://blog.csdn.net/a383359959
 
 打开根目录/ThinkPHP/Conf/convention.php文件，大约167行
 
+```php
     'COMPANY_NAME'          =>  'YThink - 后台管理'
+```
 
 ### 3、代码案例 - 筛选条件
 
@@ -91,6 +93,7 @@ http://blog.csdn.net/a383359959
 
 ### 5、代码案例 - Vue - 列表页
 
+```javascript
         // js 代码
         <script>
         new Vue({
@@ -134,9 +137,11 @@ http://blog.csdn.net/a383359959
             }
         });
         </script>
-        
+```
+```php
         // PHP 代码
         <?php
-            $list = M('list')->select();
+        $list = M('list')->select();
         $result['list'] = $list;
         die(json_encode($result));
+```
