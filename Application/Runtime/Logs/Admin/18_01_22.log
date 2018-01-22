@@ -1,0 +1,1378 @@
+[ 2018-01-22T10:56:33+08:00 ] ::1 /index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "Index" and action = "login" ) LIMIT 1   [ RunTime:0.0240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.200000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.200000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.211000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-01-22T10:56:40+08:00 ] ::1 /index.php/Admin/Index/checkLogin?username=admin&password=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `ythink_admin` WHERE ( username = "admin" and password = "21232f297a57a5a743894a0e4a801fc3" ) LIMIT 1   [ RunTime:0.0430s ]
+
+[ 2018-01-22T10:56:41+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "Index" and action = "index" ) LIMIT 1   [ RunTime:0.0250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 0 ) ORDER BY sort asc  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 1 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 6 ) ORDER BY sort asc  [ RunTime:0.3310s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 7 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 8 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.617000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.437000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.454000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.625000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.457000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.460000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.457000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.461000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-01-22T10:56:43+08:00 ] ::1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 0 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 1 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 6 ) ORDER BY sort asc  [ RunTime:0.3210s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 7 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 8 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.601000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.428000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.437000s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: parent_user_id D:\Web\Xmxz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.633000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.465000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.467000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.465000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.467000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-22T10:56:44+08:00 ] ::1 /index.php/Admin/User/lists?page=1&parent_user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_user` WHERE `status` = 1 ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0590s ]
+SQL: SHOW COLUMNS FROM `ythink_province` [ RunTime:0.0260s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_city` [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_area` [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_mechanism` [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0480s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0240s ]
+
+[ 2018-01-22T10:58:24+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index = 1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ythink_admin_menu` WHERE ( index = 1 ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index = 1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ythink_admin_menu` WHERE ( index = 1 ) LIMIT 1  
+
+[ 2018-01-22T10:58:59+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0250s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index = 1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ythink_admin_menu` WHERE ( index = 1 ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index = 1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ythink_admin_menu` WHERE ( index = 1 ) LIMIT 1  
+
+[ 2018-01-22T10:59:09+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( `index` = 1 ) LIMIT 1   [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-22T10:59:10+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( `index` = 1 ) LIMIT 1   [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-22T10:59:24+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( `index` = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-01-22T10:59:26+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( `index` = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-22T10:59:34+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( `index` = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-22T10:59:43+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( `index` = 1 ) LIMIT 1   [ RunTime:0.3200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-01-22T10:59:44+08:00 ] ::1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 0 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 1 ) ORDER BY sort asc  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 6 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 7 ) ORDER BY sort asc  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 8 ) ORDER BY sort asc  [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.308000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.133000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.144000s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: parent_user_id D:\Web\Xmxz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.340000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.172000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.176000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.172000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.176000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-22T10:59:45+08:00 ] ::1 /index.php/Admin/User/lists?page=1&parent_user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_user` WHERE `status` = 1 ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.3310s ]
+SQL: SHOW COLUMNS FROM `ythink_province` [ RunTime:0.0260s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_city` [ RunTime:0.0260s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_area` [ RunTime:0.0260s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_mechanism` [ RunTime:0.0270s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0260s ]
+
+[ 2018-01-22T10:59:57+08:00 ] ::1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.161000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 0 ) ORDER BY sort asc  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 1 ) ORDER BY sort asc  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 6 ) ORDER BY sort asc  [ RunTime:0.0240s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 7 ) ORDER BY sort asc  [ RunTime:0.0240s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 8 ) ORDER BY sort asc  [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.295000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.129000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.133000s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: parent_user_id D:\Web\Xmxz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.323000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.159000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.160000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.159000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.160000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-22T10:59:58+08:00 ] ::1 /index.php/Admin/User/lists?page=1&parent_user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_user` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_user` WHERE `status` = 1 ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `ythink_province` [ RunTime:0.0260s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `ythink_city` [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_area` [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `ythink_mechanism` [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0240s ]
+
+[ 2018-01-22T11:01:23+08:00 ] ::1 /index.php/Admin/User/lists?page=2&parent_user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_user` WHERE `status` = 1 ORDER BY add_time desc LIMIT 10,10   [ RunTime:0.0250s ]
+
+[ 2018-01-22T11:04:04+08:00 ] ::1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 0 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 1 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 6 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 7 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 8 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.296000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.128000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.132000s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: parent_user_id D:\Web\Xmxz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.327000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.160000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.162000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.160000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.162000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-22T11:04:05+08:00 ] ::1 /index.php/Admin/User/lists?page=1&parent_user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_user` WHERE `status` = 1 ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.3310s ]
+SQL: SHOW COLUMNS FROM `ythink_province` [ RunTime:0.0260s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_city` [ RunTime:0.0260s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_area` [ RunTime:0.0260s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_mechanism` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+
+[ 2018-01-22T11:04:40+08:00 ] ::1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0270s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 0 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 1 ) ORDER BY sort asc  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 6 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 7 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 8 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.299000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.130000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.134000s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0240s ]
+NOTIC: [8] Undefined index: parent_user_id D:\Web\Xmxz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.328000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.162000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.163000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.162000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.163000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-22T11:04:41+08:00 ] ::1 /index.php/Admin/User/lists?page=1&parent_user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_user` WHERE `status` = 1 ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_province` [ RunTime:0.0270s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_city` [ RunTime:0.0260s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `ythink_area` [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `ythink_mechanism` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0240s ]
+
+[ 2018-01-22T11:04:47+08:00 ] ::1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 0 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 1 ) ORDER BY sort asc  [ RunTime:0.0240s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 6 ) ORDER BY sort asc  [ RunTime:0.0240s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 7 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 8 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.303000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.129000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.141000s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: parent_user_id D:\Web\Xmxz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.336000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.169000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.171000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.169000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.171000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-22T11:04:48+08:00 ] ::1 /index.php/Admin/User/lists?page=1&parent_user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_user` WHERE `status` = 1 ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_province` [ RunTime:0.0260s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `ythink_city` [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `ythink_area` [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_mechanism` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0240s ]
+
+[ 2018-01-22T11:04:49+08:00 ] ::1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.170000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 0 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 1 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 6 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 7 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 8 ) ORDER BY sort asc  [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.312000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.130000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.141000s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: parent_user_id D:\Web\Xmxz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.347000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.170000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.175000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.170000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.175000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-01-22T11:04:50+08:00 ] ::1 /index.php/Admin/User/lists?page=1&parent_user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_user` WHERE `status` = 1 ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `ythink_province` [ RunTime:0.0250s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `ythink_city` [ RunTime:0.0260s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `ythink_area` [ RunTime:0.0260s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_mechanism` [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+
+[ 2018-01-22T11:04:58+08:00 ] ::1 /index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "Index" and action = "login" ) LIMIT 1   [ RunTime:0.0240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.164000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-22T11:05:02+08:00 ] ::1 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "Index" and action = "login" ) LIMIT 1   [ RunTime:0.0250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.165000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-22T11:05:31+08:00 ] ::1 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0270s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "Index" and action = "login" ) LIMIT 1   [ RunTime:0.0250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.170000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-22T11:05:54+08:00 ] ::1 /index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0270s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "Index" and action = "login" ) LIMIT 1   [ RunTime:0.0260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.170000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-01-22T11:06:00+08:00 ] ::1 /index.php/Admin/Index/checkLogin?username=admin&password=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `ythink_admin` WHERE ( username = "admin" and password = "21232f297a57a5a743894a0e4a801fc3" ) LIMIT 1   [ RunTime:0.0240s ]
+
+[ 2018-01-22T11:06:00+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( `index` = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-22T11:06:01+08:00 ] ::1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 0 ) ORDER BY sort asc  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 1 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 6 ) ORDER BY sort asc  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 7 ) ORDER BY sort asc  [ RunTime:0.3330s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 8 ) ORDER BY sort asc  [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.615000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.442000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.450000s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0240s ]
+NOTIC: [8] Undefined index: parent_user_id D:\Web\Xmxz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.646000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.479000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.478000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.479000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.479000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-22T11:06:01+08:00 ] ::1 /index.php/Admin/User/lists?page=1&parent_user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_user` WHERE `status` = 1 ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_province` [ RunTime:0.0250s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_city` [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_area` [ RunTime:0.0260s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `ythink_mechanism` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+
+[ 2018-01-22T11:06:03+08:00 ] ::1 /index.php/Admin/Resume/education_degree.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "Resume" and action = "education_degree" ) LIMIT 1   [ RunTime:0.0250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.162000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 0 ) ORDER BY sort asc  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 1 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 6 ) ORDER BY sort asc  [ RunTime:0.0240s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 7 ) ORDER BY sort asc  [ RunTime:0.0240s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 8 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.294000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.127000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.130000s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "Resume" and action = "education_degree" ) LIMIT 1   [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.320000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.156000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.156000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.156000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.156000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-22T11:06:04+08:00 ] ::1 /index.php/Admin/Resume/education_degree_lists?page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ythink_resume_education_degree` [ RunTime:0.3290s ]
+SQL: SELECT * FROM `ythink_resume_education_degree` ORDER BY sort asc LIMIT 0,10   [ RunTime:0.0450s ]
+
+[ 2018-01-22T11:06:05+08:00 ] ::1 /index.php/Admin/Feedback/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "Feedback" and action = "index" ) LIMIT 1   [ RunTime:0.0250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 0 ) ORDER BY sort asc  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 1 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 6 ) ORDER BY sort asc  [ RunTime:0.0240s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 7 ) ORDER BY sort asc  [ RunTime:0.0240s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 8 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.301000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.129000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.139000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.308000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.141000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.145000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.141000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.145000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-01-22T11:06:05+08:00 ] ::1 /index.php/Admin/Feedback/lists?page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ythink_feedback` [ RunTime:0.0250s ]
+SQL: SELECT `id`,`user_id`,`content`,`ip`,FROM_UNIXTIME(add_time,"%Y-%m-%d %H:%i:%s") as add_time FROM `ythink_feedback` ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0540s ]
+SQL: SHOW COLUMNS FROM `ythink_user` [ RunTime:0.0260s ]
+SQL: SELECT `username` FROM `ythink_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `username` FROM `ythink_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT `username` FROM `ythink_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT `username` FROM `ythink_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `username` FROM `ythink_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+
+[ 2018-01-22T11:06:06+08:00 ] ::1 /index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0270s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "News" and action = "index" ) LIMIT 1   [ RunTime:0.0260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 0 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 1 ) ORDER BY sort asc  [ RunTime:0.0240s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 6 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 7 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 8 ) ORDER BY sort asc  [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.305000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.131000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.140000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.311000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.143000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.145000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.143000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.145000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-22T11:06:07+08:00 ] ::1 /index.php/Admin/News/lists?page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_news` [ RunTime:0.0250s ]
+SQL: SELECT `id`,`title`,`litpic`,FROM_UNIXTIME(add_time,"%Y-%m-%d %H:%i:%s") as add_time FROM `ythink_news` ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0250s ]
+
+[ 2018-01-22T11:06:08+08:00 ] ::1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 0 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 1 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 6 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 7 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ythink_admin_menu` WHERE ( hidden = 0 and pid = 8 ) ORDER BY sort asc  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.299000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.129000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.133000s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "User" and action = "index" ) LIMIT 1   [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: parent_user_id D:\Web\Xmxz\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.327000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.161000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.161000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.161000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.161000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-22T11:06:09+08:00 ] ::1 /index.php/Admin/User/lists?page=1&parent_user_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ythink_user` WHERE `status` = 1 ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `ythink_province` [ RunTime:0.0260s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.3270s ]
+SQL: SHOW COLUMNS FROM `ythink_city` [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `ythink_area` [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `ythink_mechanism` [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `province_name` FROM `ythink_province` WHERE ( pro_id = 6 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `city_name` FROM `ythink_city` WHERE ( city_id = 37 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `area_name` FROM `ythink_area` WHERE ( area_id = 429 ) LIMIT 1   [ RunTime:0.0240s ]
+SQL: SELECT `name` FROM `ythink_mechanism` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0240s ]
+
+[ 2018-01-22T11:10:05+08:00 ] ::1 /index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004000s ]
+SQL: SHOW COLUMNS FROM `ythink_admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `ythink_admin_menu` WHERE ( `group` = "Admin" and controller = "Index" and action = "login" ) LIMIT 1   [ RunTime:0.0400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.247000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.247000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.255000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

@@ -1,0 +1,30 @@
+[ 2017-12-29T13:34:53+08:00 ] ::1 /Payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Payment
+
+[ 2017-12-29T13:35:00+08:00 ] ::1 /Payment/Service
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Payment
+
+[ 2017-12-29T13:35:53+08:00 ] ::1 /index.php/Payment/Service
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Payment
+
+[ 2017-12-29T13:36:06+08:00 ] ::1 /index.php/Payment/Service/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Payment
+
+[ 2017-12-29T13:36:08+08:00 ] ::1 /index.php/Payment/Service/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Payment
+

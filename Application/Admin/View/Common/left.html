@@ -1,0 +1,34 @@
+<div class="navbar-default sidebar">
+    <div class="sidebar-nav navbar-collapse">
+        <ul id="side-menu" class="nav in">
+            <li class="sidebar-search">
+                <div class="input-group custom-search-form">
+                    <input type="text" class="form-control" placeholder="搜索订单号">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </li>
+            <volist name="list" id="value">
+            <li>
+                <if condition="empty($value['child'])">
+                
+                <li><a href="{$value.url}"><i class="{$value.icon_class}"></i>&nbsp;{$value.name}</a></li>
+                
+                <else />
+                
+                <a href="{$value.url}"><i class="{$value.icon_class}"></i>&nbsp;{$value.name}<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse" >
+                    <volist name="value.child" id="child">
+                    <li><a href="{$child.url}">&nbsp;{$child.name}</a></li>
+                    </volist>
+                </ul>
+                
+                </if>
+            </li>
+            </volist>
+        </ul>
+    </div>
+</div>

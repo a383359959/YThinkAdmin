@@ -1,0 +1,415 @@
+[ 2018-01-09T19:45:15+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-01-09T19:45:53+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-01-09T19:46:21+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-01-09T19:46:22+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-01-09T19:46:49+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-01-09T19:49:17+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-01-09T19:51:59+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:52:00+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:52:17+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:52:56+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:52:56+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:52:56+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:52:57+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:52:57+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:52:57+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:52:57+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:52:57+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:52:57+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:53:02+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:53:02+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:53:02+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:53:02+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:53:03+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:53:08+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:53:08+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:54:13+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ythink_store_order` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ythink_store_order` (`type`,`title`,`order_sn`,`out_trade_no`,`total_fee`,`spbill_create_ip`,`time_start`,`time_expire`,`notify_url`,`trade_type`,`field_detail`) VALUES ('1','测试支付','','1515498852','100','::1','2147483647','2147483647','','','腾讯充值中心-QQ会员充值') [ RunTime:0.0000s ]
+
+[ 2018-01-09T19:55:15+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ythink_store_order` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ythink_store_order` (`type`,`title`,`order_sn`,`out_trade_no`,`total_fee`,`spbill_create_ip`,`time_start`,`time_expire`,`notify_url`,`trade_type`,`field_detail`) VALUES ('1','测试支付','','1515498914','100','::1','2147483647','2147483647','','','腾讯充值中心-QQ会员充值') [ RunTime:0.0010s ]
+
+[ 2018-01-09T19:55:28+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ythink_store_order` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ythink_store_order` (`type`,`title`,`order_sn`,`out_trade_no`,`total_fee`,`spbill_create_ip`,`time_start`,`time_expire`,`notify_url`,`trade_type`,`field_detail`) VALUES ('1','测试支付','','1515498927','100','::1','2147483647','2147483647','','','腾讯充值中心-QQ会员充值') [ RunTime:0.0010s ]
+
+[ 2018-01-09T19:55:47+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ythink_store_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ythink_store_order` (`type`,`title`,`order_sn`,`out_trade_no`,`total_fee`,`spbill_create_ip`,`time_start`,`time_expire`,`notify_url`,`trade_type`,`field_detail`) VALUES ('1','测试支付','','1515498946','100','::1','2147483647','2147483647','','','腾讯充值中心-QQ会员充值') [ RunTime:0.0000s ]
+
+[ 2018-01-09T20:24:19+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ythink_store_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\Web\Payment\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+NOTIC: [8] Undefined offset: 0 D:\Web\Payment\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `ythink_store_order` (`type`,`title`,`order_sn`,`out_trade_no`,`total_fee`,`spbill_create_ip`,`time_start`,`time_expire`,`notify_url`,`trade_type`) VALUES ('1','测试支付','','1515500658','100','192.168.1.104','2147483647','2147483647','','') [ RunTime:0.0000s ]
+
+[ 2018-01-09T20:24:46+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ythink_store_order` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined offset: 0 D:\Web\Payment\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+NOTIC: [8] Undefined offset: 0 D:\Web\Payment\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `ythink_store_order` (`type`,`title`,`order_sn`,`out_trade_no`,`total_fee`,`spbill_create_ip`,`time_start`,`time_expire`,`notify_url`,`trade_type`) VALUES ('1','测试支付','','1515500685','100','::1','2147483647','2147483647','','') [ RunTime:0.0000s ]
+
+[ 2018-01-09T20:26:22+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ythink_store_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\Web\Payment\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+NOTIC: [8] Undefined offset: 0 D:\Web\Payment\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `ythink_store_order` (`type`,`store_id`,`title`,`order_sn`,`out_trade_no`,`total_fee`,`spbill_create_ip`,`time_start`,`time_expire`,`notify_url`,`trade_type`) VALUES ('1','1','测试支付','','1515500781','100','::1','2147483647','2147483647','','') [ RunTime:0.0000s ]
+
+[ 2018-01-09T20:26:53+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ythink_store_order` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 0 D:\Web\Payment\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `ythink_store_order` (`type`,`store_id`,`title`,`order_sn`,`out_trade_no`,`total_fee`,`spbill_create_ip`,`time_start`,`time_expire`,`notify_url`,`trade_type`,`goods_detail`) VALUES ('1','1','测试支付','','1515500812','100','::1','2147483647','2147483647','','','{\"title\":[{\"name\":\"\\u5546\\u54c1\\u540d\\u79f0\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u6570\\u91cf\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u4ef7\\u683c\",\"width\":30}],\"data\":[[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"]]}') [ RunTime:0.0000s ]
+
+[ 2018-01-09T20:38:47+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ythink_store_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\Web\Payment\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `ythink_store_order` (`type`,`store_id`,`title`,`order_sn`,`out_trade_no`,`total_fee`,`spbill_create_ip`,`time_start`,`time_expire`,`notify_url`,`trade_type`,`goods_detail`) VALUES ('1','1','测试支付','r�@�݋|Gw*c7�j\\�','1515501526','100','::1','2147483647','2147483647','','','{\"title\":[{\"name\":\"\\u5546\\u54c1\\u540d\\u79f0\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u6570\\u91cf\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u4ef7\\u683c\",\"width\":30}],\"data\":[[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"]]}') [ RunTime:0.0010s ]
+
+[ 2018-01-09T20:41:04+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ythink_store_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\Web\Payment\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `ythink_store_order` (`type`,`store_id`,`title`,`order_sn`,`out_trade_no`,`total_fee`,`spbill_create_ip`,`time_start`,`time_expire`,`notify_url`,`trade_type`,`goods_detail`) VALUES ('1','1','测试支付','�\0\"���P9�6�F','1515501663','100','192.168.1.104','2147483647','2147483647','','','{\"title\":[{\"name\":\"\\u5546\\u54c1\\u540d\\u79f0\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u6570\\u91cf\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u4ef7\\u683c\",\"width\":30}],\"data\":[[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"]]}') [ RunTime:0.0010s ]
+
+[ 2018-01-09T20:41:20+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ythink_store_order` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 0 D:\Web\Payment\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `ythink_store_order` (`type`,`store_id`,`title`,`order_sn`,`out_trade_no`,`total_fee`,`spbill_create_ip`,`time_start`,`time_expire`,`notify_url`,`trade_type`,`goods_detail`) VALUES ('1','1','测试支付','`X���F<e �ȁ�&��','1515501679','100','192.168.1.104','2147483647','2147483647','','','{\"title\":[{\"name\":\"\\u5546\\u54c1\\u540d\\u79f0\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u6570\\u91cf\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u4ef7\\u683c\",\"width\":30}],\"data\":[[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"]]}') [ RunTime:0.0000s ]
+
+[ 2018-01-09T20:41:28+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ythink_store_order` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 0 D:\Web\Payment\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `ythink_store_order` (`type`,`store_id`,`title`,`order_sn`,`out_trade_no`,`total_fee`,`spbill_create_ip`,`time_start`,`time_expire`,`notify_url`,`trade_type`,`goods_detail`) VALUES ('1','1','测试支付','��>����ݫ��U��K�','1515501687','100','192.168.1.104','2147483647','2147483647','','','{\"title\":[{\"name\":\"\\u5546\\u54c1\\u540d\\u79f0\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u6570\\u91cf\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u4ef7\\u683c\",\"width\":30}],\"data\":[[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"]]}') [ RunTime:0.0000s ]
+
+[ 2018-01-09T20:41:52+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ythink_store_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\Web\Payment\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `ythink_store_order` (`type`,`store_id`,`title`,`order_sn`,`out_trade_no`,`total_fee`,`spbill_create_ip`,`time_start`,`time_expire`,`notify_url`,`trade_type`,`goods_detail`) VALUES ('1','1','测试支付','d}�O^�Q��[	�J��','1515501711','100','192.168.1.104','2147483647','2147483647','','','{\"title\":[{\"name\":\"\\u5546\\u54c1\\u540d\\u79f0\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u6570\\u91cf\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u4ef7\\u683c\",\"width\":30}],\"data\":[[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"]]}') [ RunTime:0.0010s ]
+
+[ 2018-01-09T20:43:01+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ythink_store_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\Web\Payment\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `ythink_store_order` (`type`,`store_id`,`title`,`order_sn`,`out_trade_no`,`total_fee`,`spbill_create_ip`,`time_start`,`time_expire`,`notify_url`,`trade_type`,`goods_detail`) VALUES ('1','1','测试支付','�qHqDSgA�Q�v','1515501780','100','192.168.1.104','2147483647','2147483647','','','{\"title\":[{\"name\":\"\\u5546\\u54c1\\u540d\\u79f0\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u6570\\u91cf\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u4ef7\\u683c\",\"width\":30}],\"data\":[[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"]]}') [ RunTime:0.0000s ]
+
+[ 2018-01-09T20:44:10+08:00 ] 192.168.1.104 /index.php/Api/Payment/unifiedorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ythink_store` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `ythink_store` WHERE ( app_key = "813992f5346252bcea9af322f9078374" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ythink_store_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\Web\Payment\ThinkPHP\Library\Think\Db\Driver.class.php 第 803 行.
+SQL: INSERT INTO `ythink_store_order` (`type`,`store_id`,`title`,`order_sn`,`out_trade_no`,`total_fee`,`spbill_create_ip`,`time_start`,`time_expire`,`notify_url`,`trade_type`,`goods_detail`) VALUES ('1','1','测试支付','2aa0a132cb8f09bf','1515501849','100','192.168.1.104','2147483647','2147483647','','','{\"title\":[{\"name\":\"\\u5546\\u54c1\\u540d\\u79f0\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u6570\\u91cf\",\"width\":30},{\"name\":\"\\u5546\\u54c1\\u4ef7\\u683c\",\"width\":30}],\"data\":[[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"],[\"\\u6d4b\\u8bd5\\u5546\\u54c1\\u540d\\u79f0\",\"1\",\"15\\u5143\"]]}') [ RunTime:0.0010s ]
+
