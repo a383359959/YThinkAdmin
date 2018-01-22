@@ -6,6 +6,10 @@ YThinkAdmin是基于 ThinkPHP 开发的快速、简单的面向对象的轻量�
 
 http://blog.csdn.net/a383359959
 
+## Mysql表结构
+
+http://www.xx.com/Mysql
+
 ## 使用方法
 
 ### 1、后台菜单
