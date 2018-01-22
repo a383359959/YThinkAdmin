@@ -54,10 +54,10 @@ return  array(
 
     /* 数据库设置 */
     'DB_TYPE'               =>  'mysql',     // 数据库类型
-    'DB_HOST'               =>  '139.129.252.233', // 服务器地址
-    'DB_NAME'               =>  'xmxz',          // 数据库名
-    'DB_USER'               =>  'root',      // 用户名
-    'DB_PWD'                =>  'A383359959a',          // 密码
+    'DB_HOST'               =>  '', // 服务器地址
+    'DB_NAME'               =>  '',          // 数据库名
+    'DB_USER'               =>  '',      // 用户名
+    'DB_PWD'                =>  '',          // 密码
     'DB_PORT'               =>  '3306',        // 端口
     'DB_PREFIX'             =>  'ythink_',    // 数据库表前缀
     'DB_PARAMS'          	=>  array(), // 数据库连接参数    
@@ -164,6 +164,6 @@ return  array(
     'FILE_UPLOAD_TYPE'      =>  'Local',    // 文件上传方式
     'DATA_CRYPT_TYPE'       =>  'Think',    // 数据加密方式
 
-    'COMPANY_NAME'          =>  '熊猫小筝 - 管理平台'
+    'COMPANY_NAME'          =>  'YThink - 管理平台'
 
 );
