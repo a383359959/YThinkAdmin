@@ -68,7 +68,7 @@ http://blog.csdn.net/a383359959
 打开根目录/ThinkPHP/Conf/convention.php文件，大约167行
 
 ```php
-    'COMPANY_NAME'          =>  'YThink - 后台管理'
+'COMPANY_NAME'  =>  'YThink - 后台管理'
 ```
 
 ### 3、代码案例 - 筛选条件
@@ -79,13 +79,17 @@ http://blog.csdn.net/a383359959
 
 显示标题：
 
-    {:getTitle(MODULE_NAME,CONTROLLER_NAME,ACTION_NAME,$_REQUEST['type'])}
+```html
+{:getTitle(MODULE_NAME,CONTROLLER_NAME,ACTION_NAME,$_REQUEST['type'])}
+```
 
-    condition 字段就需要填写 add 或者 edit
+condition 字段就需要填写 add 或者 edit
 
 如果不需要筛选条件：
 
-    {:getTitle(MODULE_NAME,CONTROLLER_NAME,ACTION_NAME)}
+```html
+{:getTitle(MODULE_NAME,CONTROLLER_NAME,ACTION_NAME)}
+```
     
 ### 4、代码案例 - 隐藏栏目
 
@@ -94,54 +98,49 @@ http://blog.csdn.net/a383359959
 ### 5、代码案例 - Vue - 列表页
 
 ```javascript
-        // js 代码
-        <script>
-        new Vue({
-            el : '#panel',
-            data : {
-                list : []
-            },
-            mounted : function(){
-                this.loadData();
-            },
-            methods : {
-                /*
-                *   请求数据
-                */
-                loadData : function(){
-                    var obj = this;
-                    var page = 0;
-                    $('.content').html('');
-                    $('.dropload-down').remove();
-                    $('.table').dropload({
-                        scrollArea : window,
-                        loadDownFn : function(me){
-                            page++;
-                            var option = {
-                                page : page,
+new Vue({
+    el : '#panel',
+    data : {
+        list : []
+    },
+    mounted : function(){
+        this.loadData();
+    },
+    methods : {
+        /*
+        *   请求数据
+        */
+        loadData : function(){
+            var obj = this;
+            var page = 0;
+            $('.content').html('');
+            $('.dropload-down').remove();
+            $('.table').dropload({
+                scrollArea : window,
+                loadDownFn : function(me){
+                    page++;
+                    var option = {
+                        page : page,
+                    }
+                    ythink_ajax('Resume/education_degree_lists',option,function(result){
+                        if(result.list.length > 0){
+                            for(var i = 0;i < result.list.length;i++){
+                                obj.list.push(result.list[i]);
                             }
-                            ythink_ajax('Resume/education_degree_lists',option,function(result){
-                                if(result.list.length > 0){
-                                    for(var i = 0;i < result.list.length;i++){
-                                        obj.list.push(result.list[i]);
-                                    }
-                                }else{
-                                    me.lock();
-                                    me.noData();
-                                }
-                                me.resetload();
-                            });
+                        }else{
+                            me.lock();
+                            me.noData();
                         }
+                        me.resetload();
                     });
                 }
-            }
-        });
-        </script>
+            });
+        }
+    }
+});
 ```
 ```php
-        // PHP 代码
-        <?php
-        $list = M('list')->select();
-        $result['list'] = $list;
-        die(json_encode($result));
+$list = M('list')->select();
+$result['list'] = $list;
+die(json_encode($result));
 ```
